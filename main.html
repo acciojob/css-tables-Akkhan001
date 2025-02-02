@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    th, td {
+    th,
+    td {
       border: 1px solid #ccc;
       border-radius: 5px;
       padding: 0.5rem;
@@ -14,6 +15,10 @@
 
     .odd {
       background-color: #f2f2f2;
+    }
+
+    .even {
+      background-color: #ffffff;
     }
   </style>
 </head>
@@ -26,14 +31,14 @@
       <th>Table-header 2</th>
     </tr>
     <tr>
-      <td>Cell 1</td>
+      <td class="even">Cell 1</td>
       <td>Cell 2</td>
     </tr>
     <tr class="odd">
       <td>Cell 4</td>
       <td>Cell 5</td>
     </tr>
-    <tr>
+    <tr class="even">
       <td>Cell 7</td>
       <td>Cell 8</td>
     </tr>
